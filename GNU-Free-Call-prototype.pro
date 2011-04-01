@@ -10,9 +10,14 @@ TARGET = GNU-Free-Call-prototype
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        gnufreecall.cpp
+SOURCES += src/main.cpp\
+        src/gnufreecall.cpp
 
-HEADERS  += gnufreecall.h
+HEADERS  += src/gnufreecall.h
 
-FORMS    += gnufreecall.ui
+FORMS    += ui/gnufreecall.ui
+
+UI_DIR += ui/
+MOC_DIR += .moc
+RCC_DIR += .rcc
+OBJECTS_DIR += .obj
