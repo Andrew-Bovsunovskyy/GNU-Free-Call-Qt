@@ -18,6 +18,3 @@ HEADERS  += src/gnufreecall.h
 FORMS    += ui/gnufreecall.ui
 
 UI_DIR += ui/
-MOC_DIR += .moc
-RCC_DIR += .rcc
-OBJECTS_DIR += .obj
